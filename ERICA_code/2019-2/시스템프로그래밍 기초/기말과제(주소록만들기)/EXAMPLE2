@@ -1,0 +1,35 @@
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:1
+Name:Kim
+Phone_number:0112223333
+Birth:19950101
+count: 1
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:1
+Name:Han
+Phone_number:01011112222
+Birth:19960302
+count: 2
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:1
+Name:Lee
+Phone_number:0101234567
+Birth:19970903
+count: 3
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:2
+Kim 0112223333 19950101
+Han 01011112222 19960302
+Lee 0101234567 19970903
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:4
+Birth:1
+Kim 0112223333 19950101
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:5
