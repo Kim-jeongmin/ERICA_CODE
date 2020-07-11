@@ -1,0 +1,46 @@
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:2
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:3
+No record founded.
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:1
+Name: KimEunJoo
+Phone_number: 0001112222
+Birth: 19960101
+count: 1
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:1
+Name: LeeEunJoo
+Phone_number: 0103332222
+Birth: 19960202
+count: 2
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:1
+Name: HanEunJoo
+Phone_number: 0114445555
+Birth: 20000101
+count: 3
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:2
+KimEunJoo 0001112222 19960101
+LeeEunJoo 0103332222 19960202
+HanEunJoo 0114445555 20000101
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:3
+Name:KimEunJoo
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:2
+LeeEunJoo 0103332222 19960202
+HanEunJoo 0114445555 20000101
+*****Menu*****
+1. Registration, 2. ShowAll, 3. Delete, 4. FindByBirth, 5. Exit
+Enter_the_menu_number:5
