@@ -1,0 +1,27 @@
+5-1-1
+
+"dog"의 모든 직접적 그리고 간접적인 매니저를 출력한다.
+
+5-1-2
+
+printTable(ResultSet result) throws SQLException {
+	metadata = result.getMetaData();
+	num_cols = metadata.getColumnCount();
+	for(int i=1;i<=num_cols;i++) {
+		System.out.Print(metadata.getColumnName(i) + '\t');
+	}
+	System.out.Println();
+	while(result.next()){
+		for(int i=1;i<=num_cols;i++) {
+			System.out.print(result.getString(i)+'\t')}
+			System.out.prinln();
+		}
+	}
+}
+
+5-1-3
+
+SQL 질의를 작성하는 것은 범용 프로그래밍 언어로만 같은 질의를 작성하는 거보다 쉽다.
+그러나 모든 질의가 SQL만으로 작성될 수 없다.
+화면에 출력하는 것이나 사용자에게 입력 받는 것 등의 비선언적 동작은 SQL로 할 수 없다.
+따라서, 두 장점을 모두 누리고 싶을 때 내장 SQL을 사용 (동적 SQL도 마찬가지).

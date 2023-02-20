@@ -1,0 +1,23 @@
+[5-2-1]
+
+Create trigger check-delete-trigger after delete on account 
+referencing old row as orow
+for each row
+delete from depositor
+when (depositor.customer_name not in
+	(select customer_name
+	 From depositor
+	 where account_number<>orow.account_number)
+
+[5-2-2]
+
+Select *
+From(Select Student, total, rank() over
+				(order by (total) desc)
+						as t_rank
+	From(Select student, sum(marks) as total
+		From S
+		Group by Student)
+Where t_rank <= 10
+
+

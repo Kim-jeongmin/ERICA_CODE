@@ -1,0 +1,7 @@
+6-2-2
+
+Customers(ID, name, addr, phone)
+Flights(number, day, aircraft)
+Bookings(ID, number, dat, row, seat)
+toCust(ID, row, seat)
+toFlt(number, day, row, seat)
